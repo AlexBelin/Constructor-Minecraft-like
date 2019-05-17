@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/styles.css" media="screen" />
+</head>
+<body>
+
+    <div class="area-textures">
+        <div id="textures" class="textures row panel"></div>
+    </div>
+    <div class="area-top-nav">
+        <div class="top-nav row panel">
+            <div class="top-nav-item"><div class="button" id="ground-texture">Apply text on ground</div></div>
+            <div class="top-nav-item"><p>Bloc X-Dimension</p><input type="text" value="100" id="bloc-size-X" /></div>
+            <div class="top-nav-item"><p>Bloc Y-Dimension</p><input type="text" value="100" id="bloc-size-Y" /></div>
+            <div class="top-nav-item"><p>Bloc Z-Dimension</p><input type="text" value="100" id="bloc-size-Z" /></div>
+            <div class="top-nav-item"><p>Ground Dimension</p><input type="text" value="1000" id="ground-size" /></div>
+        </div>
+    </div>
+    <div class="ground" id="ground"></div>
+
+    <script type="text/javascript" src="js/blocs.js"></script>
+    <script type="text/javascript" src="js/prototypes.js"></script>
+    <script type="text/javascript">
+        var Env = new Environment();
+        Env.EnvInitiate();
+
+        document.addEventListener('keydown', GetKey);
+
+        function GetKey(event){
+            switch(event.key){
+                case 'ArrowDown':
+                    if(Env.GroundMatrix[3] < 90){
+                        Env.GroundMatrix[3] += 10;
+                    }
+                    break
+                case 'ArrowUp':
+                    if(Env.GroundMatrix[3] > 0){
+                        Env.GroundMatrix[3] -= 10;
+                    }
+                    break
+                case 'ArrowRight':
+                    Env.GroundMatrix[4] -= 10;
+                    break
+                case 'ArrowLeft':
+                    Env.GroundMatrix[4] += 10;
+                    break
+                case '+':
+                    Env.GroundMatrix[2] += 100;
+                    break
+                case '-':
+                    Env.GroundMatrix[2] -= 100;
+                    break
+                case 'a':
+                    Env.GroundMatrix[0] += 30;
+                    break
+                case 'z':
+                    Env.GroundMatrix[0] -= 30;
+                    break
+            }
+            Env.GroundUpdate();
+        };
+    </script>
+</body>
+</html>
