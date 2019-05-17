@@ -12,7 +12,7 @@ Select a texture in the textures toolbox
 
 Now you have many options:
 1) Go to top of the screen. Click the 'Apply text on ground' button.
-2) Go to top of the screen if you want to set dimensions for your bloc or change the size of the ground.
+2) Go to top of the screen if you want to set dimensions of the bloc you want to draw or change the size of the ground.
 3) Left click the ground to draw a bloc OR Middle click the ground to draw a flat item.
 4) Left click one of the faces of a bloc to add a bloc sticked to it.
 5) Right Click an item to delete it.
