@@ -19,7 +19,9 @@ Now you have many options:
 6) Middle click a bloc to rotate it on its Z axis with 90deg steps.
 
 Use arrow keys to turn around the scene
+
 Use 'a' / 'z' keys to pan the scene left and right
+
 Use '-' / '+' keys, to zoom in and out
 
 ![alt text](https://github.com/AlexBelin/Constructor-Minecraft-like/blob/master/demos.jpg?raw=true)
