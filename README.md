@@ -25,3 +25,6 @@ Use 'a' / 'z' keys to pan the scene left and right
 Use '-' / '+' keys, to zoom in and out
 
 ![alt text](https://github.com/AlexBelin/Constructor-Minecraft-like/blob/master/demos.jpg?raw=true)
+![alt text](https://github.com/AlexBelin/Constructor-Minecraft-like/blob/master/screen01.jpg?raw=true)
+![alt text](https://github.com/AlexBelin/Constructor-Minecraft-like/blob/master/screen02.jpg?raw=true)
+![alt text](https://github.com/AlexBelin/Constructor-Minecraft-like/blob/master/screen03.jpg?raw=true)
