@@ -138,6 +138,36 @@ input:focus{
     /*box-shadow: 0 0 10px #333 inset;*/
 }
 
+.cube-face.top::before, .cube-face.front::before, .cube-face.left::before, .cube-face.right::before, .cube-face.back::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+.cube-face.top::before{
+    filter: opacity(0);
+}
+
+.cube-face.front::before{
+    filter: opacity(0.1);
+}
+
+.cube-face.left::before{
+    filter: opacity(0.4);
+}
+
+.cube-face.right::before{
+    filter: opacity(0.5);
+}
+
+.cube-face.back::before{
+    filter: opacity(0.7);
+}
+
 .cube-face.left, .cube-face.right{
     transform-origin: top left;
     -moz-transform-origin: top left;
