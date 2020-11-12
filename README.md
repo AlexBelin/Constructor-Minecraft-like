@@ -1,6 +1,6 @@
 # Constructor-Minecraft-like
 
-You will need a local webserver to make it work
+You will need a local webserver to make it work.
 
 Move to the left side of the screen to get the textures toolbox.
 
@@ -18,11 +18,11 @@ Now you have many options:
 5) Right Click an item to delete it.
 6) Middle click a bloc to rotate it on its Z axis with 90deg steps.
 
-Use arrow keys to turn around the scene
+Use arrow keys to turn around the scene.
 
-Use 'a' / 'z' keys to pan the scene left and right
+Use 'a' / 'z' keys to pan the scene left and right.
 
-Use '-' / '+' keys, to zoom in and out
+Use '-' / '+' keys, to zoom in and out.
 
 ![alt text](https://github.com/AlexBelin/Constructor-Minecraft-like/blob/master/demos.jpg?raw=true)
 ![alt text](https://github.com/AlexBelin/Constructor-Minecraft-like/blob/master/screen01.jpg?raw=true)
